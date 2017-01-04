@@ -3,7 +3,7 @@
 首先你需要准备好nodejs与包管理器npm
 当你完成了准备工作后，打开命令行工具，我们将在那里建立我们的项目
 
-###### 将教程clone下来
+#### 将教程clone下来
 
 ```
 git clone https://github.com/reactjs/react-router-tutorial
