@@ -47,7 +47,7 @@ export default About
 //modules/Repos.js
 import React from ‘react’;
 
-class Repons extend React.Component {
+class Repos extend React.Component {
 	render() {
 		return <div>Repos</div>
 	}
