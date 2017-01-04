@@ -15,7 +15,7 @@
 现在被点选的链接将会变成红色的
 
 #### activeClassName
-也可以通过 `activeClassName` 属性添加类名来代替内联样式
+也可以通过 `activeClassName` 属性添加类名来代替行内样式
 
 ```javascript
 //modules/App.js
