@@ -43,7 +43,7 @@
 你需要手动的刷新浏览器，因为webpack不能构建我们的index.html
 
 #### 把Link包装成NavLink组件
-在你的网站中大多数的link不需要知道他们是被点选状态的，通常只是主要的导航链接知道就可以了。所以把 `Link` 包装起来是很有帮助的，这样可以让你不用非要记住到底哪里写了 `activeStyle` 和 `activeClassName`
+在你的网站中大多数的link不需要知道他们是被点选状态的，通常只是主要的导航链接知道就可以了。所以把 `Link` 包装起来是很有帮助的，这样可以让你不用在每个 `Link` 中都写上 `activeStyle` 和 `activeClassName` 属性
 
 在这里我们使用了延展操作符，`…` ，它将 `props` clone了下来，并且 `activeClassName` 被克隆到了我们所期望的组件上。
 
