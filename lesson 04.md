@@ -38,7 +38,7 @@ react-router就采用这种模式，它可以通过你的嵌套路由来自动�
 #### 共享我们的导航
 让我们把 `About` 与 `Repos` 这两个Route嵌套进 `App` 的Route中，以便我们可以在app中的所有屏幕上共享导航。
 
-1. 将路径是repos与about的两个route放在app这个route中
+	1. 将路径是repos与about的两个route放在app这个route中
 
 ```javascript
 //index.js
@@ -54,7 +54,7 @@ render((
 ), document.querySelector('#app'));
 ```
 
-2. 在 `App` 组件内，使用this.props.children渲染子组件
+	2. 在 `App` 组件内，使用this.props.children渲染子组件
 
 ```javascript
 //modules/App.js
