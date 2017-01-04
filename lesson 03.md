@@ -1,9 +1,10 @@
 ## lesson 03
 #### 通过Link导航
-或许在app中最常用的组件就是 **Link** ，除了只能在Router组件中渲染，它几乎与`<a/>`一模一样
-让我们在 **App**组件 中创建几个导航
+或许在app中最常用的组件就是 `Link` ，除了只能在Router组件中渲染，它几乎与`<a/>`一模一样
 
-```
+让我们在 `App` 组件 中创建几个导航
+
+```javascript
 //modules/App.js
 import React from 'react.js';
 import { Link } from 'react-router';
