@@ -3,7 +3,7 @@
 `Link` 与 `a` 不同之处就在于 `Link` 可以知道当前的路径是否是active状态的，所以你可以给它设定一些不同的样式
 
 #### 点选链接的样式
-看一下怎么在 `Link` 中使用内联样式的，把 **activeStyle** 属性加入你的 `Link` 中
+看一下怎么在 `Link` 中使用行内样式，把 **activeStyle** 属性加入你的 `Link` 中
 
 ```javascript
 //modules/App.js
